@@ -1,23 +1,21 @@
 # Default: natrium - OPR1.170623.032 V11.0.2.0.OBGCNXM
 
-# ADSP - from LA.UM.7.5.r1-05300-8x96.0
-vendor/bin/adsprpcd|ef200e3bce4429fd9461c74330a003f069ffd5b3
-vendor/lib64/libadsp_default_listener.so|bddcdb6aa9efa39f12fc830fc54d42d8e45409dd
-vendor/lib64/libadsprpc.so|a64db8a056f364586011b08bb5e8060ba2ce6929
-vendor/lib64/libcdsprpc.so|bff6e3217f469011f330c3563bfe4e11dea164ca
-vendor/lib64/libfastcvadsp_stub.so|e25929713605e70417dee54b362b98d04a860f47
-vendor/lib64/libfastcvopt.so|1b6cda561541013dfb9379cb96f675d634d93137
-vendor/lib64/libsdsprpc.so|44cbded578f25eab4ae6a34f48c3f410c500ca05
-vendor/lib/libadsp_default_listener.so|58d05c4794c6ceb7b59e332c909a79ab528a4f31
+# ADSP - from LA.UM.8.6.r1-04400-89xx.0
+vendor/bin/adsprpcd|a5e878691577485c9f7ee33dfe02384a13f0a265
+vendor/lib64/libadsp_default_listener.so|3f69a73528c8687607da617a549ec5a449af3cc0
+vendor/lib64/libadsprpc.so|1b49735ca4ab61687f16fdad3c218f422257f806
+vendor/lib64/libfastcvadsp_stub.so|f101b66fa4a450b5af2e6aa9f7aaa28f9a876005
+vendor/lib64/libfastcvopt.so|4c2f8b95479ae5416b61388d343b7dcd9b12d390
+vendor/lib/libadsp_default_listener.so|6311c407e31742bd686e6a6fa5ab6ed4d27fb27a
+vendor/lib/libadsprpc.so|1cef31d6abef252028ca7fefee6add0938a32576
+vendor/lib/libfastcvadsp_stub.so|996345605e1d631151a6b4e9cd9f65b2c7e82dac
+vendor/lib/libfastcvopt.so|5ddc82093d344b11c532bca2af5285de99706917
+
+# ADSP - from Oneplus 3T PKQ1.181203.001
 vendor/lib/libadsp_hvx_callback_skel.so|b7e47d8d0c011caea30daf974de81eb01bb90268
 vendor/lib/libadsp_hvx_stub.so|5842e47b5929e15c8b63f1aa4795ca3432debebb
-vendor/lib/libadsprpc.so|df8d5f2aca5f63e6a507111e7bd4933fadb025cd
-vendor/lib/libcdsprpc.so|5af5859dee7d34df2ec183b2cdee20f8cc5d2d87
-vendor/lib/libfastcvadsp_stub.so|6b50fd7d53811b51e06fedd87c12a794d0c2f645
-vendor/lib/libfastcvopt.so|797b9843ccc1f650d66831d645db2bc96b89c299
-vendor/lib/libsdsprpc.so|557a7296dd3ab9a8c3f655b85ca2603d0dd70297
 
-# ADSP modules - from LA.UM.7.5.r1-05300-8x96.0
+# ADSP modules - from Oneplus 3T PKQ1.181203.001
 vendor/lib/rfsa/adsp/libadsp_fd_skel.so|5607a78451b621bb6399878ab58ba896c72797ab
 vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so|035272c1d77bcd04e3a838056d512964744c9322
 vendor/lib/rfsa/adsp/libadsp_hvx_skel.so|6a1d6ee55cc65d0f12f6a9bfd04823b46d2d6a24
@@ -28,6 +26,8 @@ vendor/lib/rfsa/adsp/libapps_mem_heap.so|fd362c6b0e30f62cc3fc4566855f46706d2c3c5
 vendor/lib/rfsa/adsp/libdspCV_skel.so|a788855fe98d5f6ea73d2693c983efb29165eae1
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|a06a3f52e89d219d2da0c7205e714cd7429b267c
 vendor/lib/rfsa/adsp/libfastcvadsp.so|603711dc1af1f1952d8978a5b494b1541b24c54c
+vendor/lib/rfsa/adsp/libmorpho_image_stabilizer4_hvx_skel.so|603711dc1af1f1952d8978a5b494b1541b24c54c
+vendor/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so|0eba88c4bb08ef4f3920547b1366e6f8e044f99a
 vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|99752b14bc669589f598b2c555af96834147e41e
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|d2174a2a4a680e93ee4262b5e6d99fd3c398620c
 vendor/lib/rfsa/adsp/libscveT2T_skel.so|487f830aca26c85ef79c8b599b2f03668ab732b5
@@ -40,7 +40,7 @@ vendor/lib/rfsa/adsp/us-syncproximity.so
 
 # Audio libraries - from LA.UM.7.5.r1-05300-8x96.0
 vendor/lib/libacdb-fts.so|4f86d94582dd5134dbcf7b23e3963a5f3e0a680a
-vendor/lib/libacdbloader.so|b81b446a1f7309993846822199a4b9b0e307e0db
+vendor/lib/libacdbloader.so|929ad04120b8f8adac4bdf82deb457f99bb96648
 vendor/lib/libacdbrtac.so|4ca5d96caf61eb2b4967d1dd3dfde78a19bfbf21
 vendor/lib/libadiertac.so|f8776c34269c49f87840a3ec5ef6141a11b016b8
 vendor/lib/libadm.so|bd574dd1f10937386df3626e2ed9d4de7d5d8ba3
