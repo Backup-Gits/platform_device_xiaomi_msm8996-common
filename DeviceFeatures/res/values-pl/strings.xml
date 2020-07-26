@@ -82,19 +82,6 @@
     <!-- Torch -->
     <string name="torch_title">Latarka</string>
     <string name="torch_brightness_title">Jasność</string>
-    
-    <!-- Spectrum Profiles -->
-    <string name="spectrum_profile_title">Spectrum</string>
-    <string name="spectrum_title">Zarządzanie wydajnością</string>
-    <string name="spectrum_summary">Wybierz ustawienia wydajności</string>
-    <string name="spectrum_dialogTitle">Wybierz ustawienia wydajności</string>
-
-    <!-- Values for Spectrum Presets -->
-    <string name="spectrum_performance">Wysoka wydajność</string>
-    <string name="spectrum_battery">Oszczędny</string>
-    <string name="spectrum_gaming">Gry</string>
-    <string name="spectrum_balance">Zbalansowany</string>
-    <string name="spectrum_extreme_battery">Bardzo oszczędny</string>
 
     <!-- menu -->
     <string name="kcal_presets">@string/presets_dialog_title</string>

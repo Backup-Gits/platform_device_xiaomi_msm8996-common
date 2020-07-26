@@ -159,8 +159,6 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
-    init.spectrum.sh \
-    init.spectrum.rc \
     ueventd.qcom.rc
 
 # Display
